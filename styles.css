@@ -1,41 +1,44 @@
 body {
   font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #7b4397, #dc2430);
+  background-color: #295E30;
   color: white;
   text-align: center;
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  padding: auto;
+  width: 75%;
 }
 
 .container {
   margin-top: 80px;
+  padding: auto;
+  width: 60%;
+  background-color: #29575E;
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 30px;
 }
 
 .buttons button {
-  background: #fff;
+  background-color: #295E4B;
   border: none;
   padding: 12px 20px;
   margin: 10px;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   border-radius: 8px;
   cursor: pointer;
   transition: 0.3s;
 }
 
 .buttons button:hover {
-  background: #f0f0f0;
+  background: #295E4f;
 }
 
 #idea-box {
   margin-top: 40px;
   font-size: 1.5rem;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   min-height: 60px;
 }
